@@ -23,3 +23,57 @@ body {
   height: 100%;
   pointer-events: none;
 }
+
+circle {
+  --color-departures: steelblue;
+  --color-arrivals: darkorange;
+  --color: color-mix(
+    in oklch,
+    var(--color-departures) calc(100% * var(--departure-ratio)),
+    var(--color-arrivals)
+  );
+  fill: var(--color);
+}
+
+#map circle,
+.legend > div::before {
+  --color-departures: steelblue;
+  --color-arrivals: darkorange;
+  --color: color-mix(
+    in oklch,
+    var(--color-departures) calc(100% * var(--departure-ratio)),
+    var(--color-arrivals)
+  );
+}
+
+#map circle {
+  fill: var(--color);
+}
+
+.legend {
+  display: flex;
+  margin-block: 1rem;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.legend > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.legend > div::before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background: var(--color);
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.legend::before {
+  content: "Legend:";
+  font-weight: 600;
+}
