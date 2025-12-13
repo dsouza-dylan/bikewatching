@@ -8,3 +8,9 @@ body {
   margin: auto;
   padding: 1em;
 }
+
+label {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
