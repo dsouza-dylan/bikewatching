@@ -8,11 +8,11 @@ An interactive project visualizing **Bluebikes station activity and bike lanes**
 ![Mapbox](https://img.shields.io/badge/Mapbox-GL%20JS-blue)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-**[Live Demo](https://dylandsouza.com/bikewatching)**
+🚴🏼‍♀️ **[Try Bikewatching in Boston Live](https://dylandsouza.com/bikewatching)**
 
 ---
 
-## ⚡ Project Overview
+## 🚴🏼‍♀️ Project Overview
 
 Bikewatching in Boston is an interactive visualization of **Bluebikes stations** and bike lane infrastructure in Boston and Cambridge. Users can explore:
 
