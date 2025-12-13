@@ -1,4 +1,4 @@
-# 🚴🏼‍♀️ Bikewatching in Boston
+# 🚴🏼‍♀️ Bikewatching
 
 An interactive project visualizing **Bluebikes station activity and bike lanes** in Boston and Cambridge. This project leverages **Mapbox GL JS**, **D3.js**, and public datasets to track station traffic, visualize trip patterns, and interactively filter data by time.
 
@@ -8,13 +8,13 @@ An interactive project visualizing **Bluebikes station activity and bike lanes**
 ![Mapbox](https://img.shields.io/badge/Mapbox-GL%20JS-blue)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-🚴🏼‍♀️ **[Try Bikewatching in Boston Live](https://dylandsouza.com/bikewatching)**
+🚴🏼‍♀️ **[Try Bikewatching Live](https://dylandsouza.com/bikewatching)**
 
 ---
 
 ## 🚴🏼‍♀️ Project Overview
 
-Bikewatching in Boston is an interactive visualization of **Bluebikes stations** and bike lane infrastructure in Boston and Cambridge. Users can explore:
+Bikewatching is an interactive visualization of **Bluebikes stations** and bike lane infrastructure in Boston and Cambridge. Users can explore:
 
 * Total bike traffic per station (departures + arrivals)
 * Departure vs arrival ratios
@@ -99,7 +99,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**🚴🏼‍♀️ Bikewatching in Boston**
+**🚴🏼‍♀️ Bikewatching**
 
 [Star this repository](https://github.com/dsouza-dylan/bikewatching) | [Report Bug](https://github.com/dsouza-dylan/bikewatching/issues) | [Request Feature](https://github.com/dsouza-dylan/bikewatching/issues)
 
