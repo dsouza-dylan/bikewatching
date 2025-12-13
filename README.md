@@ -1,6 +1,6 @@
 # 🚴🏼‍♀️ Bikewatching in Boston
 
-An interactive project visualizing **BlueBikes station activity and bike lanes** in Boston and Cambridge. This project leverages **Mapbox GL JS**, **D3.js**, and public datasets to track station traffic, visualize trip patterns, and interactively filter data by time.
+An interactive project visualizing **Bluebikes station activity and bike lanes** in Boston and Cambridge. This project leverages **Mapbox GL JS**, **D3.js**, and public datasets to track station traffic, visualize trip patterns, and interactively filter data by time.
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ESM-blue)
@@ -8,13 +8,13 @@ An interactive project visualizing **BlueBikes station activity and bike lanes**
 ![Mapbox](https://img.shields.io/badge/Mapbox-GL%20JS-blue)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-**[Live Demo](#)**
+**[Live Demo](https://dylandsouza.com/bikewatching)**
 
 ---
 
 ## ⚡ Project Overview
 
-Bikewatching Boston is an interactive visualization of **BlueBikes stations** and bike lane infrastructure in Boston and Cambridge. Users can explore:
+Bikewatching in Boston is an interactive visualization of **Bluebikes stations** and bike lane infrastructure in Boston and Cambridge. Users can explore:
 
 * Total bike traffic per station (departures + arrivals)
 * Departure vs arrival ratios
@@ -65,28 +65,10 @@ This allows for insights into peak usage times and station popularity.
 * **Frontend**: HTML, CSS, JavaScript (ESM modules)
 * **Data Sources**:
 
-  * [BlueBikes Station Data](https://dsc106.com/labs/lab07/data/bluebikes-stations.json)
-  * [BlueBikes Traffic Data](https://dsc106.com/labs/lab07/data/bluebikes-traffic-2024-03.csv)
+  * [Bluebikes Station Data](https://dsc106.com/labs/lab07/data/bluebikes-stations.json)
+  * [Bluebikes Traffic Data](https://dsc106.com/labs/lab07/data/bluebikes-traffic-2024-03.csv)
   * [Boston Bike Network GeoJSON](https://bostonopendata-boston.opendata.arcgis.com/datasets/boston::existing-bike-network-2022.geojson)
   * [Cambridge Bike Facilities GeoJSON](https://raw.githubusercontent.com/cambridgegis/cambridgegis_data/main/Recreation/Bike_Facilities/RECREATION_BikeFacilities.geojson)
-
----
-
-## ⚡ Usage
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/<username>/bikewatching-boston.git
-cd bikewatching-boston
-```
-
-2. Open `index.html` in a modern browser (Chrome, Firefox, Edge).
-3. Explore the map:
-
-   * Zoom/pan around Boston and Cambridge
-   * Hover over station circles for traffic info
-   * Use the **time slider** to filter trips
 
 ---
 
@@ -98,15 +80,27 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-* **BlueBikes Open Data** for station and traffic datasets
+* **Bluebikes Open Data** for station and traffic datasets
 * **Boston Open Data** for bike network GeoJSON
 * **Cambridge GIS** for bike facilities data
+* **DSC 106** at UC San Diego for detailing the guiding steps for this visualization
 
 ---
 
 ## 📞 Contact
 
-**Your Name** - *Creator*
+**Dylan Dsouza** - *Creator*
 
-* GitHub: [@<username>](https://github.com/<username>)
-* Email: [your-email@example.com](mailto:your-email@example.com)
+- Email: [dydsouza@ucsd.edu]
+- GitHub: [@dsouza-dylan](https://github.com/dsouza-dylan)
+- LinkedIn: [@dsouza-dylan](https://www.linkedin.com/in/dsouza-dylan/)
+
+---
+
+<div align="center">
+
+**🚴🏼‍♀️ Bikewatching in Boston**
+
+[Star this repository](https://github.com/dsouza-dylan/bikewatching) | [Report Bug](https://github.com/dsouza-dylan/bikewatching/issues) | [Request Feature](https://github.com/dsouza-dylan/bikewatching/issues)
+
+</div
